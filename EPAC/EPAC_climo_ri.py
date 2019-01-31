@@ -6,7 +6,7 @@ import numpy as np
 execfile('EPAC_climo_df.py')
 
 
-intense = pacific_storms[['Storm ID', 'Name', 'Maximum Sustained Wind Knot$
+intense = pacific_storms[['Storm ID', 'Name', 'Maximum Sustained Wind Knots']]
 
 intense = intense.convert_objects(convert_numeric=True)
 
